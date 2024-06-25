@@ -1,0 +1,19 @@
+public class Cat extends Animal {
+ 
+    public Cat(String name) {
+        super(name);
+    }
+ 
+    public Cat() {
+        super("Cat");
+    }
+ 
+    public void purr() {
+        System.out.println(this.getName() + " purrs");
+    }
+ 
+    @Override
+    public void makeNoise() {
+        this.purr();
+    }
+}
