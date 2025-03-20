@@ -8,7 +8,7 @@ public class AsteroidsApplication {
 
     public static int partsCompleted() {
         // State how many parts you have completed using the return value of this method
-        return 0;
+        return 4;
     }
 
 }
